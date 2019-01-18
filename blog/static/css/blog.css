@@ -44,10 +44,10 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: #ffd9b3;
     float: right;
-    font-size: 20pt;
-    margin-right: 20px;
+    font-size: 15pt;
+    margin-right: 15px;
 }
 
 .post {
@@ -55,7 +55,7 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #ff9966;
+    color: #ffbf80;
 }
 
 .comment {
