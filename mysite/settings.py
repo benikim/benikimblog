@@ -26,7 +26,7 @@ SECRET_KEY = 'a(y)e*f!kf1a@-0$3xq6-b9rxnp(w$xtt*d!-9be3^vfn&-)-+'
 DEBUG = True
 
 #ALLOWED_HOSTS = ['localhost','127.0.0.1','[::1]','.pythonanywhere.com']
-ALLOWED_HOSTS = ['www.benistory.app','*']
+ALLOWED_HOSTS = ['benistory.app','*']
 
 # Application definition
 
@@ -74,23 +74,23 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
 #DATABASES = {
     #'default': {
-        #'ENGINE': 'django.db.backends.postgresql',
-        #'NAME': 'djangogirls',
-        #'USER': 'beni_psql',
-        #'PASSWORD': 'rucilla0776',
-        #'HOST': 'localhost',
-        #'PORT': '',
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     #}
 #}
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djangogirls',
+        'USER': 'super',
+        'PASSWORD': 'rucilla8845',
+        'HOST': 'benikim-1020.postgres.pythonanywhere-services.com',
+        'PORT': '11020',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
