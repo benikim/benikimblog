@@ -26,7 +26,7 @@ SECRET_KEY = 'a(y)e*f!kf1a@-0$3xq6-b9rxnp(w$xtt*d!-9be3^vfn&-)-+'
 DEBUG = True
 
 #ALLOWED_HOSTS = ['localhost','127.0.0.1','[::1]','.pythonanywhere.com']
-ALLOWED_HOSTS = ['benistory.app','*']
+ALLOWED_HOSTS = ['www.benistory.app','*']
 
 # Application definition
 
